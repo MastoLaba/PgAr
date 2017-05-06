@@ -1,0 +1,1 @@
+<!--data saved--><tree><node start="true"><label>B</label></node><node><label>A</label><edges><edge weight="3">B</edge></edges></node><node end="true"><label>E</label><edges><edge weight="1">A</edge></edges></node><node><label>C</label><edges><edge weight="6">E</edge></edges></node><node><label>D</label><edges><edge weight="2">C</edge></edges></node></tree>
