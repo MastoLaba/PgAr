@@ -1,0 +1,11 @@
+
+<intro>
+  <descrizione>ho provato a eseguire il compito assegnato ma ho fattito</descrizione>
+  <spiegazione>No sono riuscito a capire in che modo avrei potuto approcciarmi al problema</spiegazione> 
+  <commenti>nel file Graph.java ho trovato un baco</commenti>
+  <baco>
+     <dove> nel metodo isCycleUtil()</dove>
+     <commento> il metodo ritorna che il grafo è ciclico indipendentemente dal fatto che il grafo sia ciclico o no </commento>
+     <soluzione>provato a corregerlo ma non ho capito dove intervenire</soluzione> 
+  </baco>
+</intro>
