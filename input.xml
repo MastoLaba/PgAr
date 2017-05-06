@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order>
+  <!-- due date & info -->
+  <meta>
+    <name>Kruskal</name>
+    <time>
+      <start>27 April 2017 00:00:00</start>
+      <end>+10 day</end>
+    </time>
+    <desc>https://en.wikipedia.org/wiki/Kruskal%27s_algorithm</desc>
+  </meta>
+  <!-- tree declaration -->
+  <tree>
+    <node start="true">
+      <label>S</label>
+      <edges>
+        <edge weight="12">1</edge>
+        <edge weight="2">2</edge>
+      </edges>
+    </node>
+    <node>
+      <label>1</label>
+      <edges>
+        <edge weight="7">4</edge>
+      </edges>
+    </node>
+    <node>
+      <label>2</label>
+      <edges>
+        <edge weight="5">1</edge>
+        <edge weight="12">3</edge>
+        <edge weight="3">4</edge>
+        <edge weight="2">5</edge>
+      </edges>
+    </node>
+    <node>
+      <label>3</label>
+      <edges>
+        <edge weight="9">6</edge>
+      </edges>
+    </node>
+    <node>
+      <label>4</label>
+      <edges>
+        <edge weight="4">T</edge>
+      </edges>
+    </node>
+    <node>
+      <label>5</label>
+      <edges>
+        <edge weight="3">3</edge>
+        <edge weight="1">6</edge>
+      </edges>
+    </node>
+    <node>
+      <label>6</label>
+      <edges>
+        <edge weight="10">T</edge>
+      </edges>
+    </node>
+    <node end="true">
+      <label>T</label>
+    </node>
+  </tree>
+</order>
