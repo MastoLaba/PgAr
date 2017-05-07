@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><tree><node><label>A</label></node><node start="true"><label>B</label><edges><edge weight="3">A</edge></edges></node><node><label>C</label><edges><edge weight="5">B</edge></edges></node><node><label>D</label><edges><edge weight="2">C</edge></edges></node><node end="true"><label>E</label><edges><edge weight="1">A</edge></edges></node></tree>
