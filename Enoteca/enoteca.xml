@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order>
+  <wines>
+    <wine>
+      <name>Tavernello</name>
+      <price val="$">5.50</price>
+      <cont>5</cont>
+      <date>
+        2015
+      </date>
+      <geo>
+        Lombardia
+      </geo>
+      <farmer>
+        Gastaldi
+      </farmer>
+    </wine>
+    <wine>
+      <name>Chianti</name>
+      <price val="€">12.50</price>
+      <cont>20</cont>
+      <date>
+        2013
+      </date>
+      <geo>
+        Catania
+      </geo>
+      <farmer>
+        Bellucci
+      </farmer>
+    </wine>
+    <wine>
+      <name>Sangiovese</name>
+      <price val="€">23.32</price>
+      <cont>2</cont>
+      <date>
+        1988
+      </date>
+      <geo>
+        Veneto
+      </geo>
+      <farmer>
+        Gorizia
+      </farmer>
+    </wine>   
+    <wine>
+      <name>Bolloc</name>
+      <price val="€">54.36</price>
+      <cont>20</cont>
+      <date>
+        1789
+      </date>
+      <geo>
+        Parigi
+      </geo>
+      <farmer>
+        Il Francesino
+      </farmer>
+    </wine>
+    <wine>
+      <name>Frizzantino</name>
+      <price val="$">40.00</price>
+      <cont></cont>
+      <date>
+        1990
+      </date>
+      <geo>
+        Brescia
+      </geo>
+      <farmer>
+        Pota
+      </farmer>
+    </wine>
+      <wine>
+        <name>Botarga</name>
+        <price val="$">23.40</price>
+        <cont>13</cont>
+        <date>
+          160
+        </date>
+        <geo>
+          Palestina
+        </geo>
+        <farmer>
+          Krafel
+        </farmer>
+      </wine>
+  </wines>
+</order>
