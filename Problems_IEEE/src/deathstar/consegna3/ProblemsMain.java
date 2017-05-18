@@ -37,7 +37,7 @@ public class ProblemsMain {
 			
 			System.out.println("Problema B...");
 			time_tmp = System.nanoTime();
-			ProblemB.solveOnlyNumbers("output_b.xml");
+			ProblemB.solveWithCombinations("output_b.xml");
 			time_b = System.nanoTime() - time_tmp;
 			
 			System.out.println("Problema A...");
