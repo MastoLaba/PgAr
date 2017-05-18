@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order>
+  <meta>
+    <name>Money for Nothing</name>
+    <desc>
+      In England the currency is made up of pound, £, and pence, p,
+      and there are eight coins in general circulation:
+      1p, 2p, 5p, 10p, 20p, 50p, £1 (100p) and £2 (200p).
+      It is possible to make £2 in the following way:
+      1×£1 + 1×50p + 2×20p + 1×5p + 1×2p + 3×1p
+    </desc>
+    <goals>
+      <goal>How many different ways can £1 be made using any number of coins?.</goal>
+      <goal>How many different ways can £2 be made using any number of coins?.</goal>
+      <goal>How many different ways can £2.50 be made using any number of coins?</goal>
+    </goals>
+    <link>https://projecteuler.net/problem=31</link>
+  </meta>
+  <combos pound="1" tot="2">
+    <!--2£,1£,50p,20p,5p,2p,1p-->
+    <combo id="0">0,1,1,2,1,1,3</combo>
+    <combo id="1">0,1,1,2,1,2,1</combo>
+    <combo id="2">1,0,0,0,0,0,0</combo>
+  </combos>
+</order>
