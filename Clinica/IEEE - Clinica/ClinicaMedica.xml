@@ -1,0 +1,32 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<order>
+  <meta>
+    <name>Clinica Medica</name>
+    <description>
+      Si richiede di creare un programma, con interfaccia a riga di comando, che ci aiuta a gestire Una Clinica Medica, con le
+      seguenti caratteristiche:
+    </description>
+    <constraints>
+      <constrain>Usare l'Interfaccia fornita come file.java</constrain>
+      <constrain>Tenere Traccia di tutti i Pazienti ricoverati in Clinica</constrain>
+      <constrain>Tenere traccia dei appuntamenti fissati per un certo Dottore, in ordine temporale</constrain>
+      <constrain>Tenere traccia dei appuntamenti fissati per un certo Paziente, in ordine di urgenza (</constrain>
+      <constrain>Tenere traccia di tutti gli Orari dei Dottori</constrain>
+      <constrain>Poter prenotare una visita solo nel orario del Dottore (es. Lun - Ven, 08.00-12.00|14.00-21.00)</constrain>
+      <constrain>Avere la possibilità di Modificare più Parametri Possibili</constrain>
+      <constrain>ATTENZIONE: Scegliere bene la struttura di dati Opportuna per possibile modifica futura, velocità di elaborazione della medesima o della facilità d'uso (es:. Vector, HashMap oppure ArrayList)</constrain>
+    </constraints>
+    <queries>
+      <query>Stampare la lista dei Pazienti nella Clinica</query>
+      <query>Stampare la lista dei Pazienti con almeno un appuntamento prenotato (raggruppandoli per numero di appuntamenti futuri e mantendo l'ordine di vicinanza)</query>
+      <query>Stampare tutti gli orari dei Medici</query>
+      <query>Stampare tutti gli appuntamenti fissati per un certo giorno, inserendo la data di quest'ultimo (Range 00.00 - 23.59)</query>
+      <query>Manipolazione completa di ogni singola entità</query>
+    </queries>
+  </meta>
+  <StrutturaDati>
+    <detail>Free</detail>
+    <allarms>Red,Yellow,Black,Brown</allarms>
+  </StrutturaDati>
+</order>
