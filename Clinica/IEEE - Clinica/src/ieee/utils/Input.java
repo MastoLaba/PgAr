@@ -3,15 +3,17 @@ package ieee.utils;
 import java.util.Scanner;
 
 public class Input {
-    private static Scanner sc = new Scanner(System.in);
+    private static Scanner sc;
     
     public static String inputRiga(){
+		sc = new Scanner(System.in)
         String s = "";
         s = sc.next();
         return s;
     }
     
     public static int inputNumero(){
+		sc = new Scanner(System.in)
         while(!sc.hasNextInt()){
             System.err.print("Errore nell'input! Inserire un numero intero: ");
             sc.next();
