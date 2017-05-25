@@ -54,7 +54,7 @@ public class Solver {
 					somma_diagonale += elemento;
 				}
 				//Somma antidiagonale
-				else if (i + j == dimensione - 1) {
+				if (i + j == dimensione - 1) {
 					somma_antidiagonale += elemento;
 				}
 				
